@@ -19,7 +19,7 @@ projects:
 components:
   - name: tools
     container:
-      image: registry.access.redhat.com/ubi8/openjdk-11:1.16-1
+      image: quay.io/aobuchow/universal-developer-image:tooling-dir
       command: ['tail', '-f', '/dev/null']
       memoryLimit: 768Mi
       mountSources: true
