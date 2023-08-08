@@ -19,7 +19,7 @@ projects:
 components:
   - name: tools
     container:
-      image: quay.io/aobuchow/personal-udi:latest
+      image: quay.io/aobuchow/universal-developer-image:stow
       command: ['tail', '-f', '/dev/null']
       memoryLimit: 768Mi
       mountSources: true
