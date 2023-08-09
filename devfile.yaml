@@ -89,6 +89,3 @@ commands:
       group:
         kind: deploy
         isDefault: true
-events:
-  postStart:
-    - update-home
