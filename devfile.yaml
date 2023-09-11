@@ -57,7 +57,7 @@ commands:
   - id: log-binaries
     exec:
       component: tools
-      commandLine: compgen -c | xargs which --all --skip-functions | sort > /projects/udi-tooling/binaries.txt ;  git add /projects/udi-tooling/binaries.txt ; git commit -m "add binaries.txt" ; git push 
+      commandLine: compgen -c | xargs which --all --skip-functions | sort | uniq > /projects/udi-tooling/binaries.txt ;  git add /projects/udi-tooling/binaries.txt ; git commit -m "update binaries.txt" ; git push 
       workingDir: ${PROJECT_SOURCE}
   - id: build
     exec:
