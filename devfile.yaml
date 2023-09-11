@@ -12,10 +12,10 @@ metadata:
   version: 2.0.0
   globalMemoryLimit: 2674Mi
 projects:
-  - name: springbootproject
+  - name: udi-tooling-test
     git:
       remotes:
-        origin: "https://github.com/odo-devfiles/springboot-ex.git"
+        origin: "git@github.com:AObuchow/udi-tooling.git"
 components:
   - name: tools
     container:
@@ -50,6 +50,11 @@ commands:
     exec:
       component: tools
       commandLine: stow . -t /home/user/ -d /home/tooling/ && source /home/user/.bashrc
+      workingDir: /home/tooling/
+  - id: log-binaries
+    exec:
+      component: tools
+      commandLine: compgen -c | xargs which --all --skip-functions | sort > /projects/udi-tooling-test/binaries.txt ; git add /projects/[GITDIR]/binaries.txt ; git commit -m "add binaries.txt" ; git push 
       workingDir: /home/tooling/
   - id: build
     exec:
