@@ -12,7 +12,7 @@ metadata:
   version: 2.0.0
   globalMemoryLimit: 2674Mi
 projects:
-  - name: udi-tooling-test
+  - name: udi-tooling
     git:
       remotes:
         origin: "git@github.com:AObuchow/udi-tooling.git"
@@ -54,8 +54,8 @@ commands:
   - id: log-binaries
     exec:
       component: tools
-      commandLine: compgen -c | xargs which --all --skip-functions | sort > /projects/udi-tooling-test/binaries.txt ; git add /projects/[GITDIR]/binaries.txt ; git commit -m "add binaries.txt" ; git push 
-      workingDir: /home/tooling/
+      commandLine: compgen -c | xargs which --all --skip-functions | sort > /projects/udi-tooling/binaries.txt ;  git add /projects/[GITDIR]/binaries.txt ; git commit -m "add binaries.txt" ; git push 
+      workingDir: ${PROJECT_SOURCE}
   - id: build
     exec:
       component: tools
