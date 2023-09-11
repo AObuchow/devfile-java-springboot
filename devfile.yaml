@@ -15,7 +15,7 @@ projects:
   - name: udi-tooling
     git:
       remotes:
-        origin: "git@github.com:AObuchow/udi-tooling.git"
+        origin: "https://github.com/AObuchow/udi-tooling.git"
 components:
   - name: tools
     container:
