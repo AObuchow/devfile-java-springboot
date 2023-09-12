@@ -803,6 +803,7 @@
 /bin/zmore
 /bin/znew
 /bin/zsoelim
+/checode/checode-linux-libc/bin/remote-cli/code-oss
 /home/tooling/.cargo/bin/cargo
 /home/tooling/.cargo/bin/cargo-clippy
 /home/tooling/.cargo/bin/cargo-fmt
@@ -861,10 +862,15 @@
 /home/tooling/.sdkman/candidates/java/current/bin/rmiregistry
 /home/tooling/.sdkman/candidates/java/current/bin/serialver
 /home/tooling/.sdkman/candidates/java/current/bin/unpack200
+/home/tooling/.sdkman/candidates/jbang/current/bin/jbang
 /home/tooling/.sdkman/candidates/maven/current/bin/mvn
 /home/tooling/.sdkman/candidates/maven/current/bin/mvnDebug
 /home/tooling/.sdkman/candidates/maven/current/bin/mvnyjp
 /home/tooling/go/bin/gopls
+/home/user/.krew/bin/kubectl-ctx
+/home/user/.krew/bin/kubectl-krew
+/home/user/.krew/bin/kubectl-ns
+/home/user/go/bin/gopls
 /sbin/accessdb
 /sbin/addgnupghome
 /sbin/addpart
@@ -2195,3 +2201,7 @@
 /usr/sbin/zdump
 /usr/sbin/zic
 /usr/sbin/zramctl
+/usr/share/Modules/bin/add.modules
+/usr/share/Modules/bin/createmodule.py
+/usr/share/Modules/bin/createmodule.sh
+/usr/share/Modules/bin/mkroot
