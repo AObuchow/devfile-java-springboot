@@ -47,6 +47,7 @@ components:
           targetPort: 8081
 events:
   postStart:
+    - load-environment
     - log-binaries
     - test-binaries
 commands:
