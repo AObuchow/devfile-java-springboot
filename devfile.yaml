@@ -11,6 +11,8 @@ metadata:
   language: Java
   version: 2.0.0
   globalMemoryLimit: 2674Mi
+parent:
+  uri: https://raw.githubusercontent.com/AObuchow/udi-path-env/main/parent-devfile.yaml
 projects:
   - name: udi-tooling
     git:
@@ -47,7 +49,6 @@ components:
           targetPort: 8081
 events:
   postStart:
-    - load-environment
     - log-binaries
     - test-binaries
 commands:
