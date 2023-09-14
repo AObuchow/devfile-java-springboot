@@ -869,6 +869,7 @@
 /home/user/.krew/bin/kubectl-ctx
 /home/user/.krew/bin/kubectl-krew
 /home/user/.krew/bin/kubectl-ns
+/home/user/.local/bin/podman
 /sbin/accessdb
 /sbin/addgnupghome
 /sbin/addpart
