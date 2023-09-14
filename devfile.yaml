@@ -21,8 +21,8 @@ projects:
 components:
   - name: tools
     container:
-      image: quay.io/aobuchow/universal-developer-image:stow-no-entrypoint
-      command: ['tail', '-f', '/dev/null']
+      image: quay.io/aobuchow/universal-developer-image:stow
+      args: ['tail', '-f', '/dev/null']
       memoryLimit: 768Mi
       mountSources: true
       endpoints:
