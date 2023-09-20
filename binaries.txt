@@ -820,6 +820,7 @@
 /home/tooling/.krew/bin/kubectl-ctx
 /home/tooling/.krew/bin/kubectl-krew
 /home/tooling/.krew/bin/kubectl-ns
+/home/tooling/.local/bin/podman
 /home/tooling/.nvm/versions/node/v16.14.0/bin/corepack
 /home/tooling/.nvm/versions/node/v16.14.0/bin/node
 /home/tooling/.nvm/versions/node/v16.14.0/bin/npm
@@ -869,7 +870,6 @@
 /home/user/.krew/bin/kubectl-ctx
 /home/user/.krew/bin/kubectl-krew
 /home/user/.krew/bin/kubectl-ns
-/home/user/.local/bin/podman
 /sbin/accessdb
 /sbin/addgnupghome
 /sbin/addpart
@@ -1952,6 +1952,7 @@
 /usr/local/bin/rg
 /usr/local/bin/runc
 /usr/local/bin/sbt
+/usr/local/bin/skaffold
 /usr/local/bin/symilar
 /usr/local/bin/terraform
 /usr/local/bin/tkn
