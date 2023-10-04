@@ -870,7 +870,6 @@
 /home/user/.krew/bin/kubectl-ctx
 /home/user/.krew/bin/kubectl-krew
 /home/user/.krew/bin/kubectl-ns
-/home/user/.local/bin/podman
 /home/user/.nvm/versions/node/v18.16.1/bin/corepack
 /home/user/.nvm/versions/node/v18.16.1/bin/node
 /home/user/.nvm/versions/node/v18.16.1/bin/npm
